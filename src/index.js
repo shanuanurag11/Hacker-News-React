@@ -1,7 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+import App from '../src/Components/App/index';
 import * as serviceWorker from './serviceWorker';
+// import setGlobalStyles from '../src/Style/globals'
+
+
+
+// let { testFunction } = setGlobalStyles;
+// this.testFunction = testFunction.bind(this);
 
 ReactDOM.render(
   <React.StrictMode>
